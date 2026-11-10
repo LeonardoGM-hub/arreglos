@@ -1,0 +1,53 @@
+html{
+    background-color: #000000;
+}
+body{
+    font-family:'Lucida Sans Unicode', sans-serif;
+    font-size: 14px;
+    background-color: #60daf8;
+    border: #caa51e 1px solid;
+    text-align: justify;
+    margin: 10px auto;
+    width: 900px;
+}
+h1{
+    color: #eca02d;
+    letter-spacing: .2em;
+    background-image: url(Imagenes/panoramica.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+
+    margin: 0;
+
+}
+h2{
+    color: #af8b0a;
+    border-bottom: #cfdf85 1px solid;
+}
+h3{
+    color: #bf823b;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+h4{
+    color: #bf823b;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+td{
+    color: #000000;
+}
+th{
+    color: #000000;
+}
+button {
+    background-color: #af8b0a;
+    color: white;             
+    border: none;  
+}
+label{
+    color: #ac8c1a;
+}
+p{
+    color: #caa51e;
+}
