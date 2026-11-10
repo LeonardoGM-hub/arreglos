@@ -20,34 +20,3 @@ h1{
     margin: 0;
 
 }
-h2{
-    color: #af8b0a;
-    border-bottom: #cfdf85 1px solid;
-}
-h3{
-    color: #bf823b;
-    margin-bottom: 0;
-    margin-top: 25px;
-}
-h4{
-    color: #bf823b;
-    margin-bottom: 0;
-    margin-top: 25px;
-}
-td{
-    color: #000000;
-}
-th{
-    color: #000000;
-}
-button {
-    background-color: #af8b0a;
-    color: white;             
-    border: none;  
-}
-label{
-    color: #ac8c1a;
-}
-p{
-    color: #caa51e;
-}
