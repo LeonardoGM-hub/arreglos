@@ -11,13 +11,32 @@
         <?php
         $arreglo=[];
 
-            for($i=1;$i<51;$i++){
+            for($i=0;$i<50;$i++){
                 $arreglo[$i]=rand(0,100);
             }
-            for($i=1;$i<51;$i++){
+            for($i=0;$i<50;$i++){
                 echo $i ."- ". $arreglo[$i]."<br>";
             }
         ?>
     <br>
+<?php
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        rsort($arreglo);
+    }
+?>
+
+<h1>Lista de numeros mas grandes</h1>
+<form method="POST">
+    <button type="submit">ejecutar</button>
+    <br>
+    <?php 
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        for ($i = 0; $i < 3; $i++) {
+            echo ($i + 1) . " puesto: " . $arreglo[$i] . "<br>";
+        }
+        echo "<br>"; 
+    }
+    ?>
+</form>
 </body>
 </html>
